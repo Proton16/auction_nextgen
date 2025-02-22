@@ -1,70 +1,90 @@
-# Getting Started with Create React App
+Auction Bidding Platform
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+🚀 Project Overview
 
-## Available Scripts
+This is an Auction Bidding Platform built using React.js for the frontend and Express.js for the backend. The project is developed under the guidance of EY (Ernst & Young) and with the support of Edunet Organization.
 
-In the project directory, you can run:
+🛠️ Tech Stack
 
-### `npm start`
+Frontend: React.js
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Backend: Express.js (Node.js)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Database: (Specify if using MongoDB, PostgreSQL, MySQL, etc.)
 
-### `npm test`
+Other Tools: (Mention any other tools like Redux, Socket.io, etc., if used)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+📌 Features
 
-### `npm run build`
+🏷️ User Authentication – Secure login and registration
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+🎯 Real-Time Bidding – Users can bid on auctions live
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+🔔 Notifications – Get alerts on bid updates
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+📊 Dashboard – View active and past auctions
 
-### `npm run eject`
+📦 Admin Panel – Manage auctions and users
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+🔧 Installation & Setup
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Prerequisites
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Ensure you have the following installed:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Node.js & npm
 
-## Learn More
+Git
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Clone the Repository
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+git clone https://github.com/Proton16/auction_nextgen.git
+cd auction_nextgen
 
-### Code Splitting
+Backend Setup (Express)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+cd backend
+npm install
+npm start
 
-### Analyzing the Bundle Size
+Frontend Setup (React)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+cd frontend
+npm install
+npm start
 
-### Making a Progressive Web App
+📜 Usage
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Sign up or log in as a user.
 
-### Advanced Configuration
+Browse available auctions.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Place bids in real-time.
 
-### Deployment
+Monitor auction progress and win items!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+🤝 Contribution Guidelines
 
-### `npm run build` fails to minify
+Contributions are welcome! Follow these steps:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Fork the repository
+
+Create a new branch (git checkout -b feature-branch)
+
+Commit your changes (git commit -m 'Add new feature')
+
+Push to your branch (git push origin feature-branch)
+
+Open a Pull Request
+
+📌 License
+
+This project is licensed under the MIT License.
+
+📞 Contact
+
+For queries or collaboration, contact:
+
+Project Lead: Saurav
+
+GitHub: Proton16
